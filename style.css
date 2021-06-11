@@ -1,0 +1,111 @@
+html, body {
+    background-color: #25273a;
+
+    width: 100%;
+    margin: auto;
+    padding: 0;
+
+  }
+  
+
+
+
+.container-time{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#clock{
+    width: 100%;
+    font-size: 80px;
+    color: #b0dffd;
+    font-family: 'Staatliches', cursive;}
+
+
+.container-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align:center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.Caixa-man{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    text-align:center;
+
+}
+
+.Caixinha{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+
+    width: 150px;
+    height: 190px;
+    float: left;
+    background-color:#171823;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px 0px #171823;
+
+}
+
+
+.Caixinha a {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    font-family: 'Work Sans', sans-serif;
+    width: max-content;
+
+
+    color: #718093;
+    text-decoration: none;
+}
+
+.Icon{
+    margin: 35px;
+    width: 150px;
+    height: 35px;
+    float: left;
+}
+
+
+.Icon img{
+    filter: invert(79%) sepia(36%) saturate(2310%) hue-rotate(185deg) brightness(112%) contrast(118%);
+    width: 45px;
+    height: 45px;
+
+}
+
+
+.animation::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #b0dffd;
+    transition: width .3s;
+}
+
+.animation:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+ 
